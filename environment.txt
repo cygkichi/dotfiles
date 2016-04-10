@@ -1,0 +1,21 @@
+
+[HomeWin]
+Cygwin Package Information
+Package              Version        Status
+bash                 4.1.17-9       OK
+cygwin               1.7.32-1       OK
+emacs                24.4-1         OK
+git                  2.1.1-1        OK
+vim                  7.4.417-1      OK
+zsh                  5.0.6-1        Incomplete
+
+[UinvWin]
+Cygwin Package Information
+Package              Version        Status
+bash                 4.1.17-9       OK
+cygwin               1.7.32-1       OK
+emacs                24.4-1         OK
+gnuplot              4.6.3-3        OK
+vim                  7.4.417-1      OK
+zsh                  5.0.6-1        OK
+screen               4.2.1-2        OK

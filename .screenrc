@@ -1,0 +1,5 @@
+defkanji euc
+escape ^]v
+
+hardstatus on
+hardstatus alwayslastline "screen | %w | %u %= %m%d %D %c"
