@@ -1,0 +1,79 @@
+{
+    "workbench.colorTheme": "GitHub Light",
+    "python.defaultInterpreterPath": "/Users/hnakano/Documents/10_SCSK_LAB/02_MINIDIS/241029_受領ファイル/ai_minidis/.venv",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "markdown.marp.themes": [
+        "./marp-themes/test.css"
+    ],
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "mikoz.black-py"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": false
+    },
+    "notebook.output.textLineLimit": 15,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordSeparators": "~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?、。　",
+    "cSpell.enableFiletypes": [
+        "!plaintext"
+    ],
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "settingsSync.ignoredExtensions": [
+        "johnpapa.winteriscoming",
+        "azemoh.one-monokai",
+        "monokai.theme-monokai-pro-vscode"
+    ],
+    "jupyter.askForKernelRestart": false,
+    "cloudcode.project": "tech-verification-265409",
+    "git.openRepositoryInParentFolders": "never",
+    "git.autofetch": true,
+    "files.associations": {
+        "*.tf": "plaintext"
+    },
+    "window.zoomLevel": -1,
+    "workbench.editorAssociations": {
+        "*.msg": "default"
+    },
+    "jupyter.themeMatplotlibPlots": true,
+    "notebook.lineNumbers": "on",
+    "jupyter.enableExtendedPythonKernelCompletions": true,
+    "jupyter.jupyterCommandLineArguments": [],
+    "jupyter.experiments.enabled": false,
+    "emacs-mcx.emacsLikeTab": true,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.interactiveWindow.cellMarker.decorateCells": "allCells",
+    "notebook.consolidatedRunButton": true,
+    "notebook.editorOptionsCustomizations": {},
+    "notebook.stickyScroll.enabled": true,
+    "notebook.scrolling.revealNextCellOnExecute": "firstLine",
+    "dataWrangler.startInEditModeForNotebookEntrypoints": true,
+    "search.experimental.closedNotebookRichContentResults": true,
+    "notebook.displayOrder": [],
+    "notebook.navigation.allowNavigateToSurroundingCells": false,
+    "notebook.scrolling.experimental.anchorToFocusedCell": "on",
+    "jupyter.executionAnalysis.enabled": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "ruff.showSyntaxErrors": false,
+    "notebook.output.scrolling": true,
+    "hediet.vscode-drawio.resizeImages": null,
+    "autoDocstring.docstringFormat": "numpy",
+    "pylint.args": [
+        "\"pylint.args\": [\"--disable=C0413\", \"--max-line-length=120\"]"
+    ],
+    "editor.detectIndentation": false,
+    "mypy.dmypyExecutable": "",
+    "python.analysis.autoIndent": false,
+    "python.analysis.autoSearchPaths": false,
+    "files.autoGuessEncoding": true,
+    "unsaved-files.viewOnExplorer.enabled": true,
+    "cSpell.textDecoration": "underline green",
+}

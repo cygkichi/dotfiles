@@ -1,0 +1,86 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    {
+        "key": "ctrl+shift+enter",
+        "command": "jupyter.runcell",
+        "when": "notebookEditorFocused && isWorkspaceTrusted"
+    },
+    {
+        "key": "pagedown",
+        "command": "editor.action.pageDownHover",
+        "when": "editorHoverFocused"
+    },
+    {
+        "key": "alt+down",
+        "command": "-editor.action.pageDownHover",
+        "when": "editorHoverFocused"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "editor.action.pasteAsText"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "editor.action.clipboardPasteAction"
+    },
+    {
+        "key": "cmd+v",
+        "command": "-editor.action.clipboardPasteAction"
+    },
+    {
+        "key": "cmd+c",
+        "command": "editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "cmd+c",
+        "command": "-editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "cmd+z",
+        "command": "undo"
+    },
+    {
+        "key": "cmd+z",
+        "command": "-undo"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "dataWrangler.undoOperation",
+        "when": "dataWrangler.canUndoOperation && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
+    },
+    {
+        "key": "cmd+z",
+        "command": "-dataWrangler.undoOperation",
+        "when": "dataWrangler.canUndoOperation && dataWrangler.dataWranglerActive && dataWrangler.focusedElementAllowsShortcuts && isWorkspaceTrusted && !inputFocus"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "inlineChat.unstash",
+        "when": "inlineChatHasStashedSession && !editorReadonly"
+    },
+    {
+        "key": "cmd+z",
+        "command": "-inlineChat.unstash",
+        "when": "inlineChatHasStashedSession && !editorReadonly"
+    },
+    {
+        "key": "cmd+/",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+/",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+c",
+        "command": "workbench.action.terminal.copySelection",
+        "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
+    },
+    {
+        "key": "cmd+c",
+        "command": "-workbench.action.terminal.copySelection",
+        "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
+    },
+]
