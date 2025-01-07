@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "GitHub Light",
-    "python.defaultInterpreterPath": "/Users/hnakano/Documents/10_SCSK_LAB/02_MINIDIS/241029_受領ファイル/ai_minidis/.venv",
+    "python.defaultInterpreterPath": "/Users/hnakano/github/prj-prd-summitstore-nebiki-api/.venv",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "workbench.startupEditor": "none",
     "security.workspace.trust.untrustedFiles": "open",

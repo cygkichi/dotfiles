@@ -21,12 +21,6 @@ export EDITOR=vim
 export LANG=ja_JP.UTF-8
 export PATH="$PATH:/Users/hnakano/.local/bin" # Created by `pipx` on 2024-12-15 13:53:58
 
-# ------------------------------------------------------------
-# エイリアス
-# ------------------------------------------------------------
-alias ls='ls --color'
-alias l='ls -l --color'
-alias la='ls -la --color'
 
 # ------------------------------------------------------------
 # プラグイン
@@ -57,12 +51,35 @@ zinit light zdharma/history-search-multi-word
 # * https://github.com/zdharma-continuum/fast-syntax-highlighting
 zinit light zdharma-continuum/fast-syntax-highlighting
 
+# エイリアス(abbr)
+# - abbrエイリアスは、履歴に元コマンドを残せる
+# - https://github.com/olets/zsh-abbr
+zinit light olets/zsh-abbr
+
 
 # zeno設定
 # * 参考:https://qiita.com/obake_fe/items/da8f861eed607436b91c
 # 25/01/05:よくわからんから放置
 # zinit ice lucid depth"1" blockf
 # zinit light yuki-yano/zeno.zsh
+
+# ------------------------------------------------------------
+# エイリアス
+# ------------------------------------------------------------
+#abbr ls='ls --color'
+#abbr l='ls -l --color'
+#abbr la='ls -la --color'
+
+# ------------------------------------------------------------
+# TAB補完
+# ------------------------------------------------------------
+
+# TABで部分一致できるようにする
+# 例えば`hoge[TAB]`で`sample-hoge-abc`をマッチさせることができる
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z} r:|{a-zA-Z}=**'
+
+# TABで保管する際にメニュー画面設定
+zstyle ':completion:*' menu select
 
 
 # ------------------------------------------------------------
